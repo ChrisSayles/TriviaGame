@@ -1,26 +1,70 @@
+body {
+    background-color: black;
+}
 
 h1 {
-	font-size: 50px;
-	color: white;
-	text-align: center;
-	font-family: 'Bangers', cursive;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    font-family: 'Bangers', cursive;
 }
 
 p {
-	color:yellow;
-	text-align: center;
-	font-size: 50px;
-	font-family: 'Bangers', cursive;
+    color: yellow;
+    text-align: center;
+    font-size: 56px;
+    font-family: 'Bangers', cursive;
 }
 
-body {
-	background-image: url("../images/blue.jpg"); 
-	background-size: contain;
+#questionPage {
+    background-image: url("../images/blue.jpg");
+    background-size: contain;
 }
 
 .alignCenter {
-	text-align: center;
-	color: white;
-	font-size: 40px;
-	font-family: 'Bangers', cursive;
+    text-align: center;
+    color: white;
+    font-size: 27px;
+    font-family: cursive;
+}
+
+.opacity {
+    opacity: 0;
+}
+
+#initialPage {
+    background-image: url("../images/mashup.gif");
+    background-size: cover;
+}
+
+#start {
+    margin-top: 20px;
+    background: initial;
+    border-color: yellow;
+    border-width: 6px;
+}
+
+#answerPage {
+    background-image: url("../images/harbaughfreakout.gif");
+    background-size: cover;
+}
+
+#retry {
+    background-color: initial;
+    border-color: yellow;
+}
+
+.footerFormat {
+    background-color: black;
+    text-align: center;
+    color: yellow;
+    padding-top: 17px;
+    font-family: 'Bangers', cursive;
+}
+
+.cursiveTitle {
+	font-size: 76px;
+    color: white;
+    text-align: center;
+    font-family: cursive;
 }

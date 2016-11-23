@@ -10,201 +10,218 @@
 </head>
 
 <body>
+    <nav class="navbar navbar-default navbar-fixed-top footerFormat">
+        <!-- <div class="container">
+            Michigan Football Trivia Challenge
+        </div> -->
+    </nav>
     <!-- Starting Page for my trivia game.  Will need to press start to get to questions page -->
     <div class="container" id="initialPage">
         <div class="container">
-            <h1>Michigan Football Trivia Challenge</h1>
+            <br>
+            <br>
+            <h1 class="cursiveTitle">Michigan Football Trivia Challenge</h1>
             <p>
                 <button type="button" id="start">Begin!</button>
             </p>
+            <embed src="http://fightmusic.com/mp3/big10/Michigan__Hail_To_The_Victors.mp3" autoplay="true" loop="true" class="opacity">
         </div>
-    </div>
-    <!--QuestionPage begin-->
-    <div class="container" id="questionPage">
-        <div class="container">
-            <p>Time Left: <span id="timer">01:59</span></p>
-            <br>
-        </div>
-        <div class="container">
-            <p>What team has the most wins in NCAA Football History?</p>
-            <div class="alignCenter">
-                <label class="radio-inline">
-                    <input type="radio" value="false" name="q1radio">Notre Dame Fighting Irish</label>
-                <label class="radio-inline">
-                    <input type="radio" value="false" name="q1radio">Alabama Crimson Tide</label>
-                <label class="radio-inline">
-                    <input type="radio" value="true" name="q1radio">Michigan Wolverines</label>
-                <label class="radio-inline">
-                    <input type="radio" value="false" name="q1radio">Texas Longhorns</label>
-            </div>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-        </div>
-        <div class="container">
-            <p>Who is the headcoach at the Univeristy of Michigan?</p>
-            <div class="alignCenter">
-                <label class="radio-inline">
-                    <input type="radio" value="false" name="q2radio">Nick Saban</label>
-                <label class="radio-inline">
-                    <input type="radio" value="false" name="q2radio">Urban Meyer</label>
-                <label class="radio-inline">
-                    <input type="radio" value="false" name="q2radio">Lloyd Carr</label>
-                <label class="radio-inline">
-                    <input type="radio" value="true" name="q2radio">Jim Harbaugh</label>
-            </div>
-            <br>
-            <br>
-        </div>
-        <div class="container">
-            <p>Which former President played football for the University of Michigan?</p>
-            <div class="alignCenter">
-                <label class="radio-inline">
-                    <input type="radio" value="false" name="q3radio">John F. Kennedy</label>
-                <label class="radio-inline">
-                    <input type="radio" value="false" name="q3radio">Theodore Roosevelt</label>
-                <label class="radio-inline">
-                    <input type="radio" value="true" name="q3radio">Gerald Ford</label>
-                <label class="radio-inline">
-                    <input type="radio" value="false" name="q3radio">Richard Nixon</label>
-            </div>
-            <br>
-            <br>
-        </div>
-        <div class="container">
-            <p>What is the name of the University of Michigan fight song?</p>
-            <div class="alignCenter">
-                <label class="radio-inline">
-                    <input type="radio" value="false" name="q4radio">Michigan Thy Great</label>
-                <label class="radio-inline">
-                    <input type="radio" value="false" name="q4radio">Wolverine Waltz</label>
-                <label class="radio-inline">
-                    <input type="radio" value="false" name="q4radio">Michigan March</label>
-                <label class="radio-inline">
-                    <input type="radio" value="true" name="q4radio">Hail to the Victors</label>
-            </div>
-            <br>
-            <br>
-        </div>
-        <div class="container">
-            <p>In what year was the famous wing design added to the Michigan football helmets?</p>
-            <div class="alignCenter">
-                <label class="radio-inline">
-                    <input type="radio" value="true" name="q5radio">1921</label>
-                <label class="radio-inline">
-                    <input type="radio" value="false" name="q5radio">1856</label>
-                <label class="radio-inline">
-                    <input type="radio" value="false" name="q5radio">1965</label>
-                <label class="radio-inline">
-                    <input type="radio" value="false" name="q5radio">1976</label>
-            </div>
-            <br>
-            <br>
-            <br>
-            <br>
-        </div>
-        <div class="container">
-            <p>How many points did Michigan give up in it's 1997 National Champion season?</p>
-            <div class="alignCenter">
-                <label class="radio-inline">
-                    <input type="radio" value="false" name="q6radio">546</label>
-                <label class="radio-inline">
-                    <input type="radio" value="false" name="q6radio">301</label>
-                <label class="radio-inline">
-                    <input type="radio" value="true" name="q6radio">114</label>
-                <label class="radio-inline">
-                    <input type="radio" value="false" name="q6radio">88</label>
-            </div>
-            <br>
-            <br>
-        </div>
-        <div class="container">
-            <p>Who was the runner up in the 1997 Heisman voting behind Charles Woodson?</p>
-            <div class="alignCenter">
-                <label class="radio-inline">
-                    <input type="radio" value="false" name="q7radio">Vince Young</label>
-                <label class="radio-inline">
-                    <input type="radio" value="false" name="q7radio">David Boston</label>
-                <label class="radio-inline">
-                    <input type="radio" value="false" name="q7radio">Phillip Rivers</label>
-                <label class="radio-inline">
-                    <input type="radio" value="true" name="q7radio">Peyton Manning</label>
-            </div>
-            <br>
-            <br>
-        </div>
-        <div class="container">
-            <p>What year was Michigan Stadium Completed in?</p>
-            <div class="alignCenter">
-                <label class="radio-inline">
-                    <input type="radio" value="false" name="q8radio">1896</label>
-                <label class="radio-inline">
-                    <input type="radio" value="false" name="q8radio">1921</label>
-                <label class="radio-inline">
-                    <input type="radio" value="false" name="q8radio">1952</label>
-                <label class="radio-inline">
-                    <input type="radio" value="true" name="q8radio">1963</label>
-            </div>
-            <br>
-            <br>
-        </div>
-        <!--Submit Button to display all results-->
-        <div>
-            <p>
-                <button type="button" class="btn btn-default btn-lg" id="submit">Submit Answers</button>
-            </p>
-        </div>
-    </div>
-    <!--Answers page-->
-    <div class="container" id="answerPage">
-        <div>
-            <p>Lets check the game stats</p>
-            <p>Correct: <span id="correct"></span></p>
-            <p>Wrong: <span id="wrong"></span></p>
-            <p>Not Answered: <span id="notAnswered"></span></p>
-            <p>
-            <p>
-                <button type="button" id="retry">Try Again</button>
-            </p>
-        </div>
-    </div>
-    <!-- When timer runs out -->
-    <div class="container">
-        <!-- time up modal -->
-        <div class="modal" id="timeExpired" role="dialog">
-            <div class="modal-dialog modal-sm" align="center">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h4 class="modal-title">Time's Up!</h4>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        < </div>
+            <!--QuestionPage begin-->
+            <div class="container" id="questionPage">
+                <div class="container">
+                    <br>
+                    <br>
+                    <p>Time Left: <span id="timer">01:59</span></p>
+                </div>
+                <div class="container">
+                    <p>What team has the most wins in NCAA Football History?</p>
+                    <div class="alignCenter">
+                        <label class="radio-inline">
+                            <input type="radio" value="false" name="q1radio">Notre Dame Fighting Irish</label>
+                        <label class="radio-inline">
+                            <input type="radio" value="false" name="q1radio">Alabama Crimson Tide</label>
+                        <label class="radio-inline">
+                            <input type="radio" value="true" name="q1radio">Michigan Wolverines</label>
+                        <label class="radio-inline">
+                            <input type="radio" value="false" name="q1radio">Texas Longhorns</label>
                     </div>
-                    <div class="modal-body">
-                        <p>See your results.</p>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                </div>
+                <div class="container">
+                    <p>Who is the headcoach at the Univeristy of Michigan?</p>
+                    <div class="alignCenter">
+                        <label class="radio-inline">
+                            <input type="radio" value="false" name="q2radio">Nick Saban</label>
+                        <label class="radio-inline">
+                            <input type="radio" value="false" name="q2radio">Urban Meyer</label>
+                        <label class="radio-inline">
+                            <input type="radio" value="false" name="q2radio">Lloyd Carr</label>
+                        <label class="radio-inline">
+                            <input type="radio" value="true" name="q2radio">Jim Harbaugh</label>
                     </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default" id="closure" data-dismiss="modal">Close</button>
+                    <br>
+                    <br>
+                </div>
+                <div class="container">
+                    <br>
+                    <p>Which former President played football for the University of Michigan?</p>
+                    <div class="alignCenter">
+                        <label class="radio-inline">
+                            <input type="radio" value="false" name="q3radio">John F. Kennedy</label>
+                        <label class="radio-inline">
+                            <input type="radio" value="false" name="q3radio">Theodore Roosevelt</label>
+                        <label class="radio-inline">
+                            <input type="radio" value="true" name="q3radio">Gerald Ford</label>
+                        <label class="radio-inline">
+                            <input type="radio" value="false" name="q3radio">Richard Nixon</label>
                     </div>
+                    <br>
+                    <br>
+                </div>
+                <div class="container">
+                    <br>
+                    <p>What is the name of the University of Michigan fight song?</p>
+                    <div class="alignCenter">
+                        <label class="radio-inline">
+                            <input type="radio" value="false" name="q4radio">Michigan Thy Great</label>
+                        <label class="radio-inline">
+                            <input type="radio" value="false" name="q4radio">Wolverine Waltz</label>
+                        <label class="radio-inline">
+                            <input type="radio" value="false" name="q4radio">Michigan March</label>
+                        <label class="radio-inline">
+                            <input type="radio" value="true" name="q4radio">Hail to the Victors</label>
+                    </div>
+                    <br>
+                    <br>
+                </div>
+                <div class="container">
+                    <p>In what year was the famous wing design added to the Michigan football helmets?</p>
+                    <div class="alignCenter">
+                        <label class="radio-inline">
+                            <input type="radio" value="true" name="q5radio">1921</label>
+                        <label class="radio-inline">
+                            <input type="radio" value="false" name="q5radio">1856</label>
+                        <label class="radio-inline">
+                            <input type="radio" value="false" name="q5radio">1965</label>
+                        <label class="radio-inline">
+                            <input type="radio" value="false" name="q5radio">1976</label>
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                </div>
+                <div class="container">
+                    <p>How many points did Michigan give up in it's 1997 National Champion season?</p>
+                    <div class="alignCenter">
+                        <label class="radio-inline">
+                            <input type="radio" value="false" name="q6radio">546</label>
+                        <label class="radio-inline">
+                            <input type="radio" value="false" name="q6radio">301</label>
+                        <label class="radio-inline">
+                            <input type="radio" value="true" name="q6radio">114</label>
+                        <label class="radio-inline">
+                            <input type="radio" value="false" name="q6radio">88</label>
+                    </div>
+                    <br>
+                    <br>
+                </div>
+                <div class="container">
+                    <p>Who was the runner up in the 1997 Heisman voting behind Charles Woodson?</p>
+                    <div class="alignCenter">
+                        <label class="radio-inline">
+                            <input type="radio" value="false" name="q7radio">Vince Young</label>
+                        <label class="radio-inline">
+                            <input type="radio" value="false" name="q7radio">David Boston</label>
+                        <label class="radio-inline">
+                            <input type="radio" value="false" name="q7radio">Phillip Rivers</label>
+                        <label class="radio-inline">
+                            <input type="radio" value="true" name="q7radio">Peyton Manning</label>
+                    </div>
+                    <br>
+                    <br>
+                </div>
+                <div class="container">
+                    <p>What year was Michigan Stadium Completed in?</p>
+                    <div class="alignCenter">
+                        <label class="radio-inline">
+                            <input type="radio" value="false" name="q8radio">1896</label>
+                        <label class="radio-inline">
+                            <input type="radio" value="false" name="q8radio">1921</label>
+                        <label class="radio-inline">
+                            <input type="radio" value="false" name="q8radio">1952</label>
+                        <label class="radio-inline">
+                            <input type="radio" value="true" name="q8radio">1963</label>
+                    </div>
+                    <br>
+                    <br>
+                </div>
+                <!--Submit Button to display all results-->
+                <div>
+                    <p>
+                        <button type="button" class="btn btn-default btn-lg" id="submit">Submit Answers</button>
+                    </p>
                 </div>
             </div>
-        </div>
-    </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <!--Footer-->
-    <nav class="navbar navbar-default navbar-fixed-bottom">
-        <div class="container">
+            <!--Answers page-->
+            <div class="container" id="answerPage">
+                <br><br>
+                <div>
+                    <br><br><br><br>
+                    <p>Correct: <span id="correct"></span></p>
+                    <p>Wrong: <span id="wrong"></span></p>
+                    <p>Not Answered: <span id="notAnswered"></span></p>
+                    <p>
+                        <p>
+                            <button type="button" id="retry">Try Again</button>
+                        </p>
+                        <br><br><br><br><br><br><br><br><br>
+                    </div>
+                </div>
+                <!-- When timer runs out -->
+                <div class="container">
+                    <!-- time up modal -->
+                    <div class="modal" id="timeExpired" role="dialog">
+                        <div class="modal-dialog modal-sm" align="center">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h4 class="modal-title">Time's Up!</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <p>See your results.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" id="closure" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br><br><br><br>
+                <!--Footer-->
+                <nav class="navbar navbar-default navbar-fixed-bottom footerFormat">
+                    <!-- <div class="container">
             Copyright Christopher T. Sayles
-        </div>
-    </nav>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script type="text/javascript" src="assets/javascript/game.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
-    
-
-    </script>
+        </div> -->
+                </nav>
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+                <script type="text/javascript" src="assets/javascript/game.js"></script>
+                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
+                </script>
 </body>
 
 </html>
