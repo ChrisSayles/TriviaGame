@@ -16,6 +16,7 @@
         </div> -->
     </nav>
     <!-- Starting Page for my trivia game.  Will need to press start to get to questions page -->
+    
     <div class="container" id="initialPage">
         <div class="container">
             <br>
@@ -24,9 +25,7 @@
             <p>
                 <button type="button" id="start">Begin!</button>
             </p>
-            <!-- <embed src="https://fightmusic.com/mp3/big10/Michigan__Hail_To_The_Victors.mp3" autoplay="true" loop="true" class="opacity"> -->
             <audio src="assets/images/Hail.mp3" controls autoplay="true" class="opacity">   
-            <p>Fallback content goes here.</p>
             </audio>
         </div>
         <br>
@@ -198,16 +197,16 @@
                 <!-- When timer runs out -->
                 <div class="container">
                     <!-- time up modal -->
-                    <div class="modal" id="timeExpired" role="dialog">
+                    <div class="modal expiration" id="timeExpired" role="dialog">
                         <div class="modal-dialog modal-sm" align="center">
                             <div class="modal-content">
-                                <div class="modal-header">
-                                    <h4 class="modal-title">Time's Up!</h4>
+                                <div class="modal-header transparent">
+                                    <h4 class="modal-title transparent">Time has expired.  Get your head in the damn game!</h4>
                                 </div>
-                                <div class="modal-body">
-                                    <p>See your results.</p>
+                                <div class="modal-body transparent">
+                                    <p>Here are your results</p>
                                 </div>
-                                <div class="modal-footer">
+                                <div class="modal-footer transparent">
                                     <button type="button" class="btn btn-default" id="closure" data-dismiss="modal">Close</button>
                                 </div>
                             </div>
